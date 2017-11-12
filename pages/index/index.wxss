@@ -1,0 +1,82 @@
+/**index.wxss**/
+/* main_page.wxss */
+.main_view{
+  width: 100%;
+  height: auto;
+  background-color: #eee;
+  overflow: auto;
+}
+.main_mode{
+  width: 100%;
+  background-color: #fff;
+  margin-top: 10px;
+  position: relative;
+}
+.mode_head{
+  height: 125rpx;
+}
+.touxiang{
+  width: 85rpx;
+  height: 85rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  border: 1px solid #222;
+}
+.head_right_name{
+  display: block;
+  position: absolute;
+  top: 38rpx;
+  left: 130rpx;
+  font-size: 14px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.head_right_time{
+  display: block;
+  position: absolute;
+  top: 70rpx;
+  left: 130rpx;
+  font-size: 12px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: gray;
+}
+.summary_con{
+  margin-left: 20rpx;
+  margin-top: -20rpx;
+  font-size: 16px;
+}
+.mode_foot{
+  height: 20px;
+  width: 100%;
+  border-top: 1px solid #eee;
+  margin-top: 30rpx;
+}
+
+
+.background{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  background-color: #eee; 
+  z-index: -999;
+  text-align: center;
+  color: #343238;
+  font-size: 15px;
+  padding-top: 10px; 
+}
+
+.huati{
+  color: dodgerblue;
+  font-size: 14px;
+}
+
+.pullup{
+  position: fixed;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  
+
+  
+}

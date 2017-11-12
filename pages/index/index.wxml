@@ -1,0 +1,111 @@
+<!--index.wxml-->
+<view class="main_view">
+  <view class="main_mode">
+
+    <view class="mode_head">
+      <image class="touxiang" src="{{ userInfo.avatarUrl }}" background-size="cover"></image>
+      <view class="head_right_name">
+        <!--<text>{{ userInfo.nickName }}</text>-->
+        <text>孙书会</text>
+      </view>
+      <view class="head_right_time">
+        <text>18小时前</text>
+      </view>
+    </view>
+
+    <view class="summary_con">
+      <text class="summary">
+        <text>
+          {{json}}
+        </text>
+        <text class="huati">
+          #java程序设计
+        </text>
+      </text>
+    </view>
+
+    <view class="mode_foot">
+       
+    </view>
+
+  </view>
+
+  <view class="main_mode">
+
+    <view class="mode_head">
+      <image class="touxiang" src="{{ userInfo.avatarUrl }}" background-size="cover"></image>
+      <view class="head_right_name">
+        <text>孙书会</text>
+      </view>
+      <view class="head_right_time">
+        <text>昨天</text>
+      </view>
+    </view>
+
+    <view class="summary_con">
+      <text class="summary">
+        给同学们推荐一本书《C++Primer》
+        各部分讲的很详细！大家有时间多看看！
+      </text>
+      <image src="http://wcoguide.oss-cn-shenzhen.aliyuncs.com/wco/c%2B%2Bprimer.jpeg" mode="aspectFit" style="margin: 15px 0" bindtap="opendoc"></image>
+      <text class="huati">
+        #面对对象程序设计C++
+      </text>
+    </view>
+
+    <view class="mode_foot">
+       
+    </view>
+
+  </view>
+
+  <view class="main_mode">
+
+    <view class="mode_head">
+      <image class="touxiang" src="{{ userInfo.avatarUrl }}" background-size="cover"></image>
+      <view class="head_right_name">
+        <text>{{ userInfo.nickName }}</text>
+      </view>
+      <view class="head_right_time">
+        <text>昨天</text>
+      </view>
+    </view>
+
+    <view class="summary_con">
+      <text class="summary">
+        皮皮红，我们走！
+      </text>
+      <image src="http://wcoguide.oss-cn-shenzhen.aliyuncs.com/wco/pipihong.jpeg" style="margin-top:15px;"></image>
+    </view>
+
+    <view class="mode_foot">
+       
+    </view>
+
+  </view>
+
+
+
+
+
+
+
+
+  <view class="background">
+    <text class="loading">加载中...</text>
+    <text class="pullup">加载中...</text>
+  </view>
+
+  
+
+
+
+
+
+
+
+
+
+
+</view>
+
