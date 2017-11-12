@@ -9,7 +9,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WCOstudy",
+    "navigationBarTitleText": "知源",
     "navigationBarTextStyle": "black",
     "enablePullDownRefresh": true
     
@@ -28,7 +28,7 @@
       },
       {
         "pagePath": "pages/message/message",
-        "text": "消息",
+        "text": "通知",
         "iconPath": "image/comments.png",
         "selectedIconPath": "image/commentss.png"
       },
